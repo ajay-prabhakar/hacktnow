@@ -27,16 +27,16 @@ int fib(int);
 int main(int argc, char **argv)
 {
 	int n,f;
-	scanf ("%d",&n);
-	f=fib(n);
+	scanf ("%d",&m);
+	f=fib(m);
 	printf("%d",f);
 }
-int fib(int n){
-	if(n==0){
-return n=0;
+int fib(int m){
+	if(m==0){
+return m=0;
 }
 else{
-	return fib(n-1)+fib(n-2);
+	return fib(m-1)+fib(m-2);
 }
 }
 
