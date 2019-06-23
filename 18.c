@@ -2,13 +2,13 @@
      void main()
     {
  
-        int i, j, b, n, number[30];
+        int i, j, b, n, num[30];
         printf("Enter the value of N \n");
         scanf("%d", &n);
  
         printf("Enter the numbers \n");
         for (i = 0; i < n; ++i)
-            scanf("%d", &number[i]);
+            scanf("%d", &num[i]);
  
         for (i = 0; i < n; ++i) 
         {
@@ -16,12 +16,12 @@
             for (j = i + 1; j < n; ++j)
             {
  
-                if (number[i] > number[j]) 
+                if (num[i] > num[j]) 
                 {
  
-                    b =  number[i];
-                    number[i] = number[j];
-                    number[j] = b;
+                    b =  num[i];
+                    num[i] = num[j];
+                    num[j] = b;
  
                 }
  
@@ -31,6 +31,6 @@
  
         printf("The numbers arranged in ascending order are given below \n");
         for (i = 0; i < n; ++i)
-            printf("%d\n", number[i]);
+            printf("%d\n", num[i]);
  
     }
