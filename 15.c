@@ -5,13 +5,13 @@ void reverse(char*, int, int);
  
 int main()
 {
-   char a[100];
+   char n[100];
  
-   gets(a);
+   gets(n);
  
-   reverse(a, 0, strlen(a)-1);
+   reverse(n, 0, strlen(a)-1);
  
-   printf("%s\n", a);
+   printf("%s\n", n);
  
    return 0;
 }
