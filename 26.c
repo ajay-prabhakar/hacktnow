@@ -4,10 +4,10 @@
 #include <stdlib.h>
 
 int main() {
-    int n;
-    scanf("%d",&n);
+    int x;
+    scanf("%d",&x);
     
-    if((n<<31)== 0){
+    if((x<<31)== 0){
         printf("yes");
     }
     else{
