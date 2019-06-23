@@ -2,8 +2,8 @@
 int main()
 {
 int a[10], b[10], flag = 0, n1, n2, i, j;
-scanf("%d",&n1);
-scanf("%d",&n2);
+scanf(" %d ",&n1);
+scanf(" %d ",&n2);
 for(i = 0;i < n1;i++)
 scanf("%d",&a[i]);
 for(i = 0;i < n2;i++)
@@ -19,7 +19,7 @@ flag = 1;
 }
 if(flag == 1)
 {
-printf("%d ", b[i]);
+printf(" %d ", b[i]);
 }
 flag = 0;
 }
