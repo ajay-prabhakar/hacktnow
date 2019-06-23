@@ -1,22 +1,22 @@
 #include <stdio.h>
 int main()
 {
-   int* pc, c;
+   int* pc, n;
    
-   c = 22;
-   printf("Address of c: %u\n", &c);
-   printf("Value of c: %d\n\n", c);
+   n = 22;
+   printf("Address of c: %u\n", &n);
+   printf("Value of c: %d\n\n", n);
    
-   pc = &c;
+   pc = &n;
    printf("Address of pointer pc: %u\n", pc);
    printf("Content of pointer pc: %d\n\n", *pc);
    
-   c = 11;
+   n = 11;
    printf("Address of pointer pc: %u\n", pc);
    printf("Content of pointer pc: %d\n\n", *pc);
    
    *pc = 2;
-   printf("Address of c: %u\n", &c);
-   printf("Value of c: %d\n\n", c);
+   printf("Address of c: %u\n", &n);
+   printf("Value of c: %d\n\n", n);
    return 0;
 }
