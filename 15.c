@@ -5,18 +5,18 @@ void reverse(char*, int, int);
  
 int main()
 {
-   char a[100];
+  char a[100];
  
-   gets(a);
+      gets(a);
  
-   reverse(a, 0, strlen(a)-1);
+ reverse(a, 0, strlen(a)-1);
  
-   printf("%s\n", a);
+       printf("%s\n", a);
  
    return 0;
-}
+           }
  
-void reverse(char *x, int begin, int end)
+void reverse(char *y, int begin, int end)
 {
    char c;
  
@@ -25,9 +25,9 @@ void reverse(char *x, int begin, int end)
       return;
 }
 else{ 
-   c          = *(x+begin);
-   *(x+begin) = *(x+end);
-   *(x+end)   = c;
+   c          = *(y+begin);
+   *(y+begin) = *(y+end);
+   *(y+end)   = c;
  }
-   reverse(x, ++begin, --end);
+   reverse(y, ++begin, --end);
 }
