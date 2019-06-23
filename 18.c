@@ -2,7 +2,7 @@
      void main()
     {
  
-        int i, j, a, n, number[30];
+        int i, j, b, n, number[30];
         printf("Enter the value of N \n");
         scanf("%d", &n);
  
@@ -19,9 +19,9 @@
                 if (number[i] > number[j]) 
                 {
  
-                    a =  number[i];
+                    b =  number[i];
                     number[i] = number[j];
-                    number[j] = a;
+                    number[j] = b;
  
                 }
  
