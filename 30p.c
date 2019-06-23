@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-  int i, x[6], sum = 0;
+  int a, x[6], sum = 0;
   
   
   printf("Enter 6 numbers: ");
-  for(i = 0; i < 6; ++i)
+  for(a = 0; a < 6; ++a)
   {
-      scanf("%d", x+i);
+      scanf("%d", x+a);
 
-      sum += *(x+i);
+      sum += *(x+a);
   }
   printf("Sum = %d", sum);
   return 0;
