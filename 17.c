@@ -2,6 +2,8 @@
 int main()
 {
 int a[10], b[10], flag = 0, n1, n2, i, j;
+  
+  
 printf("Enter array1 size : ");
 scanf("%d",&n1);
 printf("\nEnter array2 size : ");
