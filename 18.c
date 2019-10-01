@@ -6,7 +6,7 @@
         printf("Enter the value of N \n");
         scanf("%d", &n);
  
-        printf("Enter the numbers \n");
+        printf("Give u r values \n");
         for (i = 0; i < n; ++i)
             scanf("%d", &num[i]);
  
