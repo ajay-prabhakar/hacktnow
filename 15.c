@@ -2,7 +2,6 @@
 #include <string.h>
  
 void reverse(char*, int, int);
- 
 int main()
 {
    char x[100];
