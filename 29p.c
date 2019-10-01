@@ -5,9 +5,6 @@ int main()
    
    n = 22;
    
-   
-   
-   
    printf("Address of c: %u\n", &n);
    printf("Value of c: %d\n\n", n);
    
