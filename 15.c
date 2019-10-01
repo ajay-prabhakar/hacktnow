@@ -4,17 +4,14 @@
 void reverse(char*, int, int);
 int main()
 {
-   char x[100];
+   char p[100];
  
-   gets(x);
+   gets(p);
  
-        reverse(x, 0, strlen(a)-1);
+        reverse(p, 0, strlen(a)-1);
  
-   printf("%s\n", x);
-	
-	
- 
-   return 0;
+   printf("%s\n", p);
+ return 0;
 }
  
    void reverse(char *y, int begin, int end)
