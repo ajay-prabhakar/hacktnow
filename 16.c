@@ -23,6 +23,7 @@ flag = 1;
 if(flag == 1)
 {
 printf(" %d ", b[i]);
+
 }
 flag = 0;
 }
