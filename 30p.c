@@ -6,7 +6,6 @@ int main()
   for(a = 0; a < 6; ++a)
   {
       scanf("%d", x+a);
-
       sum += *(x+a);
   }
   printf("Sum = %d", sum);
