@@ -13,7 +13,8 @@ scanf("%d",&d[i]);
 printf("Intersection: ");
   
    for(i = 0;i < n1;i++)
-{
+
+   {
    for(j = 0;j < n2;j++)
 {if(b[i] == a[j])
 {
