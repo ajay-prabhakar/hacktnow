@@ -39,7 +39,7 @@ int main(int argc, char **argv)
 		    
 			
 			if (b[i]>b[j] && i<j){
-				f=f+1;
+				f+=1;
 			}
 		}
 	}
