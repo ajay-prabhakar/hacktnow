@@ -11,6 +11,7 @@ int main ()
 				a[i]=a[i+1];
 				a[i+1]=temp;
 			}
+		  
 		}
 		for (i=0;i<n;i++){
 			printf("%d",a[i]);
