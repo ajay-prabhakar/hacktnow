@@ -6,7 +6,7 @@ int main()
 printf("Value: %d\n", var);//format
       
       
-  printf("Address: %u", &var);  //Notice, the ampersand(&) before var.
+  printf("Address: %u", &var);  
       
   return 0;
       
