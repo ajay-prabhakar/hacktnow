@@ -3,6 +3,7 @@
  
 void reverse(char*, int, int);
 int main()
+	
 {
    char p[100];
  
