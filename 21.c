@@ -9,9 +9,9 @@ int main()
    scanf("%d",&n);
  
    printf("Fibonacci series\n");
+  
  
-   for ( c = 1 ; c <= n ; c++ )
-   {
+   for ( c = 1 ; c <= n ; c++ ){
       printf("%d\n", Fibonacci(i));
       i++; 
    }
@@ -19,12 +19,14 @@ int main()
    return 0;
 }
  
-int Fibonacci(int n)
+int  Fibonacci(int n)
 {
    if ( n == 0 )
       return 0;
    else if ( n == 1 )
-      return 1;
+      
+    
+    return 1;
    else
       return ( Fibonacci(n-1) + Fibonacci(n-2) );
 } 
