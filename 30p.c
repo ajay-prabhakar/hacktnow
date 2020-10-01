@@ -1,9 +1,11 @@
 #include <stdio.h>
+#define fo(x,n) for(int x = 0; x < n; ++x)
+
 int main()
 {
   int a, x[6], sum = 0;
   printf("Enter 6 numbers: ");
-  for(a = 0; a < 6; ++a)
+  fo(a,6)
   {
       scanf("%d", x+a);
 
