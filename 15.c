@@ -11,15 +11,15 @@ int main()
         reverse(p, 0, strlen(a)-1);
  
    printf("%s\n", p);
- return 0;
+  return 0;
 }
  
-   void reverse(char *y, int begin, int end)
-{
+   void reverse(char *y, int begin, int end){
+
 	   
    char c;
  
-   if (begin >= end){
+   if (begin  >=  end){
 	   
       return;
 }
