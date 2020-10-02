@@ -11,6 +11,8 @@ int main()
    printf("Fibonacci series\n");
  
    for ( c = 1 ; c <= n ; c++ )
+   
+   
    {
       printf("%d\n", Fibonacci(i));
       i++; 
@@ -27,4 +29,7 @@ int Fibonacci(int n)
       return 1;
    else
       return ( Fibonacci(n-1) + Fibonacci(n-2) );
-} 
+
+
+}
+
