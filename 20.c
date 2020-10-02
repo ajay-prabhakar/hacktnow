@@ -26,19 +26,19 @@
 
 int main(int argc, char **argv)
 {
-	int i,j,n,f=0;
+	int x,j,n,f=0;
 	scanf("%d",&n);
 	int b[n];
-	for (i=0;i<n;i++){
-		scanf(" %d",&b[i]);
+	for (x=0;x<n;x++){
+		scanf(" %d",&b[x]);
 	}
-	for (i=0;i<n-1;i++){
+	for (x=0;x<n-1;x++){
 		
 		
-		for(j=i+1;j<n;j
+		for(j=x+1;j<n;j
 		    
 			
-			if (b[i]>b[j] && i<j){
+			if (b[x]>b[j] && x<j){
 				f=f+1;
 			}
 		}
