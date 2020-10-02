@@ -1,6 +1,8 @@
  #include <stdio.h>
      void main()
-    {
+    
+     
+     {
  
         int i, j, b, n, num[30];
         printf("Enter the value of N \n");
@@ -33,4 +35,6 @@
         for (i = 0; i < n; ++i)
             printf("%d\n", num[i]);
  
-    }
+    
+     
+     }
