@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+void solve(){
+    int n,  i, j=0, temp=0;
+    cin>>n>>j;
+    long long ans=0,m;
+    int a[n],b[n];
+    memset(b,0,sizeof(b));
+    for(i=0;i<n;i++){
+        cin>>a[i];
+    }
+    for(i=0;i<n-1;i++){
+        if(a[i]<a[i+1]){
+            b[i]-=1;
+            b[i+1]+=1;
+        }
+        else {
+            b[i]+=1;
+            b[i+1]-=1;
+        }
+    }
+    int last=-1;
+    vector<int > v;
+    ans=a[0];
+    for(i=0;i<n-1;i++){
+        ans+=max(0,a[i+1]-a[i]);
+    }
+    
+    cout<<ans<<'\n';
+}
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    solve();
+	}
+	return 0;
+}
