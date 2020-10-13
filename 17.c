@@ -1,7 +1,7 @@
 #include <stdio.h> //union
 int main()
 {
-int c[10], d[10], flag = 0, k1, k2, i, j
+int c[10], d[10], flag = 0, k1, k2, i, j;
   
 printf("Enter array1 size : ");
   
