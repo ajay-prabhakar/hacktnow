@@ -4,12 +4,12 @@
 #include <stdlib.h>
 
 int main() {
-    int n,k;
+    int p,k;
     
-    scanf("%d  %d",&n,&k)  ;
-    n=n>>k; 
-    n=n%2;
-    printf("  %d   ",n);
+    scanf("%d  %d",&p,&k)  ;
+    p=p>>k; 
+    p=p%2;
+    printf("  %d   ",p);
     
      /* Enter your code here. Read input from STDIN. Print output  dfmbdflmbdf  pmfv fs vto STDOUT */    
     return 0;
